@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SARL IBEInstallation, branchement électrique -ELECTRICIEN 92 • 93 • 94 • 95</title>
+  <meta name="description" content="SARL IBE — Électricien tertiaire. Installation, maintenance, mise aux normes et dépannage électrique pour entreprises et particuliers dans les départements 92, 93, 94 et 95. Intervention 24h/24 et 7j/7.">
+  <meta name="keywords" content="électricien, tertiaire, 92, 93, 94, 95, mise aux normes, dépannage">
+  <link rel="icon" href="favicon.ico">
+  <style>
+    :root{--primary:#0b5;--dark:#0b3;--muted:#666;--card:#fff;--bg:#f4f6f8}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, Arial, sans-serif;margin:0;background:var(--bg);color:#111}
+    header{background:#0b5;padding:18px 12px;color:#fff}
+    .container{max-width:1100px;margin:0 auto;padding:18px}
+    .brand{display:flex;gap:12px;align-items:center}
+    .brand h1{margin:0;font-size:1.3rem}
+    .hero{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between}
+    .card{background:var(--card);padding:16px;border-radius:10px;box-shadow:0 2px 6px rgba(0,0,0,0.06)}
+    .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+    .cta{display:flex;gap:8px;align-items:center}
+    a.btn{background:#073;padding:10px 14px;border-radius:8px;color:#fff;text-decoration:none}
+    footer{padding:18px;color:var(--muted);text-align:center}
+    .grid{display:grid;grid-template-columns:1fr 340px;gap:16px}
+    @media(max-width:900px){.grid{grid-template-columns:1fr}}
+    .map{width:100%;height:240px;border-radius:8px;overflow:hidden}
+    .badge{display:inline-block;padding:6px 8px;border-radius:6px;background:#eef}
+    .contact-card p{margin:6px 0}
+    .reviews{display:flex;flex-direction:column;gap:8px}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Electrician",
+    "name": "SARL IBE",
+    "url": "https://ibe95100.github.io/SARL-IBE/",
+    "logo": "https://www.sarl-ibe.fr/logo.png",
+    "telephone": "+33698687474",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "4 allée du Carrousel",
+      "addressLocality": "Argenteuil",
+      "postalCode": "95100",
+      "addressRegion": "Île-de-France",
+      "addressCountry": "FR"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "48"
+    },
+    "areaServed": ["Hauts-de-Seine (92)", "Seine-Saint-Denis (93)", "Val-de-Marne (94)", "Val-d'Oise (95)"],
+    "priceRange": "€€",
+    "description": "Installation, maintenance, mise aux normes et dépannage électrique pour bureaux, commerces et collectivités. Service d'urgence 24h/24 et 7j/7."
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container brand">
+      <div>
+        <img src="logo.png" alt="logo SARL IBE" width="64" height="64" style="border-radius:8px;background:#fff;padding:6px">
+      </div>
+      <div>
+        <h1>SARL IBE — Électricien 92 • 93 • 94 • 95</h1>
+        <div style="font-size:0.9rem">SARL — 13 ans d'expérience — Intervention et astreinte 24h/24 • 7j/7</div>
+      </div>
+      <div style="margin-left:auto;text-align:right">
+        <div style="font-weight:700">☎ 06 98 68 74 74</div>
+        <div style="font-size:0.85rem">Devis gratuit sous 24h</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" style="padding-top:18px">
+    <section class="hero">
+      <div style="flex:1;min-width:260px">
+        <div class="card">
+          <h2>Électricien tertiaire — Installations, maintenance & dépannage</h2>
+          <p style="color:var(--muted)">SARL IBE accompagne entreprises, commerces et particuliers pour des installations sûres, la mise aux normes et des interventions de dépannage rapides. NF C15-100 • IRVE </p>
+          <div style="margin-top:12px" class="cta">
+            <a class="btn" href="tel:+33698687474">Appeler maintenant</a>
+            <a class="btn" href="#devis" style="background:#046">Demander un devis</a>
+          </div>
+        </div>
+      </div>
+      <div style="width:320px;min-width:220px">
+        <div class="card contact-card">
+          <h3>Contact rapide</h3>
+          <p><strong>Téléphone :</strong> 06 98 68 74 74</p>
+          <p><strong>Adresse (bureau) :</strong> 4 allée du Carrousel, 95100 Argenteuil</p>
+          <p><strong>Zones :</strong> 92 • 93 • 94 • 95</p>
+          <p><strong>Horaires & astreinte :</strong><br>Service & interventions 24h/24 et 7j/7</p>
+          <p><strong>Email :</strong> <a href="mailto:ibe.elec@gmail.com">ibe.elec@gmail.com</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-top:16px" class="grid">
+      <div>
+        <div class="card">
+          <h3>Nos services</h3>
+          <div class="services">
+            <div>
+              <h4>Installation électrique</h4>
+              <p class="muted">Plateaux bureaux, commerces, rénovations complètes.</p>
+            </div>
+            <div>
+              <h4>Mise aux normes</h4>
+              <p class="muted">Conformité NF C15-100, tableaux électriques.</p>
+            </div>
+            <div>
+              <h4>Dépannage & maintenance</h4>
+              <p class="muted">Intervention réactive, contrats d'entretien et astreintes 24/7.</p>
+            </div>
+            <div>
+            
+     
+            </div>
+            <div>
+              <h4>IRVE</h4>
+              <p class="muted">Borne de recharge véhicules — dimensionnement et conformité.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h3>Exemples de réalisations</h3>
+          <ul>
+            <li>Rénovation électrique d'un plateau de bureaux - Nanterre</li>
+            <li>Mise en conformité d'un commerce - Aubervilliers</li>
+            <li>Contrat de maintenance annuel - Centre administratif, Cergy</li>
+          </ul>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h3 id="devis">Demande de devis</h3>
+          <form onsubmit="return sendForm(event)" id="contactForm">
+            <p><label>Nom / Entreprise<br><input name="name" required style="width:100%;padding:8px;margin-top:6px"></label></p>
+            <p><label>Téléphone<br><input name="phone" required style="width:100%;padding:8px;margin-top:6px"></label></p>
+            <p><label>Message (site, chantier, urgence)<br><textarea name="message" rows="4" style="width:100%;padding:8px;margin-top:6px"></textarea></label></p>
+            <p><button type="submit" class="btn">Envoyer la demande</button></p>
+            <p style="font-size:0.85rem;color:var(--muted)">Nous répondrons sous 24h. Pour urgence : appelez directement.</p>
+          </form>
+        </div>
+
+      </div>
+
+      <aside>
+        <div class="card">
+          <h3>Où nous intervenons</h3>
+          <div class="map card" style="margin-top:8px">
+            <!-- Remplacez l'iframe Google Maps ci-dessous par votre embed réel -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18" width="100%" height="100%" style="border:0" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h3>Avis clients</h3>
+          <div class="reviews">
+            <div><strong>Entreprise X</strong><br><small>"Intervention pro et rapide. Devis clair."</small></div>
+            <div><strong>Client Y</strong><br><small>"Équipe sérieuse, chantier propre."</small></div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h3>FAQ</h3>
+          <p><strong>Intervenez-vous en urgence ?</strong><br>Oui, contactez-nous au 06 98 68 74 74.</p>
+          <p><strong>Faites-vous des devis gratuits ?</strong><br>Oui, devis gratuit sous 24h.</p>
+        </div>
+      </aside>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      © SARL IBE — Assurance décennale active
+    </div>
+  </footer>
+
+<script>
+  function sendForm(e){
+    e.preventDefault();
+    const f = document.getElementById('contactForm');
+    const data = new FormData(f);
+    const subject = encodeURIComponent('Demande de devis - ' + data.get('name'));
+    const body = encodeURIComponent('Téléphone: ' + data.get('phone') + '\\n\\nMessage:\\n' + data.get('message'));
+    // ouvre le client mail de l'utilisateur (solution simple et gratuite)
+    window.location.href = 'mailto:ibe.elec@gmail.com?subject='+subject+'&body='+body;
+    return false;
+  }
+</script>
+</body>
+</html>
